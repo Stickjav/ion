@@ -1,4 +1,4 @@
-# Security Policy for @pro-grammer-SD Projects
+# Security Policy for @programmersd Projects
 
 Maintained by Soumalya Das  
 Email: geniussantu1983@gmail.com
