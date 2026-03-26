@@ -1,4 +1,4 @@
-# Contributing to @programmersd Projects
+# Contributing to @programmersd21 Projects
 
 Maintained by Soumalya Das
 
